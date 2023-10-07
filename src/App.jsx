@@ -5,9 +5,9 @@ import luxurySVG from "./assets/images/icon-luxury.svg";
 function App() {
   return (
     <>
-      <main className="min-h-screen bg-[#f2f2f2] flex flex-col justify-center items-center">
-        <div className="max-w-screen m-[4rem] items-center flex flex-col lg:flex-row lg:h-[32rem] lg:w-[60rem]">
-          <section className="h-full w-3/4 lg:w-1/3 bg-[#e28525] text-white flex flex-col justify-evenly rounded-tl-xl rounded-tr-xl lg:rounded-tr-none lg:rounded-tl-xl lg:rounded-bl-xl">
+      <main className="min-h-screen bg-[#f2f2f2] flex flex-col lg:justify-center lg:items-center">
+        <div className="min-h-screen max-w-screen lg:m-[4rem] items-center flex flex-col lg:flex-row lg:h-[32rem] lg:w-[60rem]">
+          <section className="lg:h-full w-3/4 lg:w-1/3 bg-[#e28525] text-white flex flex-col justify-evenly rounded-tl-xl rounded-tr-xl lg:rounded-tr-none lg:rounded-tl-xl lg:rounded-bl-xl">
             <div className="flex flex-col h-full mx-16 justify-between sm:my-8 ">
               <img src={sedanSVG} className="w-1/3 my-8" />
 
@@ -22,7 +22,7 @@ function App() {
               </button>
             </div>
           </section>
-          <section className="h-full w-3/4 lg:w-1/3 bg-[#016972] text-white flex flex-col justify-evenly">
+          <section className="lg:h-full w-3/4 lg:w-1/3 bg-[#016972] text-white flex flex-col justify-evenly">
             <div className="flex flex-col h-full mx-16 justify-between sm:my-8 ">
               <img src={suvSVG} className="w-1/3 my-8" />
               <h1 className="font-semibold text-5xl font-Sans my-4">SUVS</h1>
@@ -35,7 +35,7 @@ function App() {
               </button>
             </div>
           </section>
-          <section className="h-full w-3/4 lg:w-1/3 bg-[#00403f] text-white flex flex-col justify-evenly rounded-bl-xl rounded-br-xl lg:rounded-bl-none lg:rounded-br-xl lg:rounded-tr-xl">
+          <section className="lg:h-full w-3/4 lg:w-1/3 bg-[#00403f] text-white flex flex-col justify-evenly rounded-bl-xl rounded-br-xl lg:rounded-bl-none lg:rounded-br-xl lg:rounded-tr-xl">
             <div className="flex flex-col h-full mx-16 justify-between sm:my-8 ">
               <img src={luxurySVG} className="w-1/3 my-8" />
               <h1 className="font-semibold text-5xl font-Sans my-4">LUXURY</h1>
