@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <main className="min-h-screen bg-[#f2f2f2] flex flex-col justify-center items-center">
-        <div className="m-[4rem] items-center flex flex-col lg:flex-row lg:h-[32rem] lg:w-[60rem]">
+        <div className="max-w-screen m-[4rem] items-center flex flex-col lg:flex-row lg:h-[32rem] lg:w-[60rem]">
           <section className="h-full lg:w-1/3 bg-[#e28525] text-white flex flex-col justify-evenly rounded-tl-xl rounded-tr-xl lg:rounded-tr-none lg:rounded-tl-xl lg:rounded-bl-xl">
             <div className="flex flex-col h-full mx-16 justify-around sm:my-8 ">
               <img src={sedanSVG} className="w-1/3 my-8" />
